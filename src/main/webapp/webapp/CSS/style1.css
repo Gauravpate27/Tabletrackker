@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color: black; 
+   
+}
+
+.head h1{
+    color: #f39c12;
+    font-weight: 600;
+}
+.wrapper{
+    display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.log{
+    border:2px solid #f39c12;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(248, 184, 107, 0.3); */
+}
+.log hr{
+    /* height: 2px; */
+    padding: 2px;
+    background-color: #f39c12;
+    display: flex;
+    justify-content: center;
+}
+
+.fields span i{
+    font-size: 20px;
+    color: #f39c12;
+}
+
+.fields input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.fields p{
+    padding: 20px 0px;
+    color: #ffff;
+}
+.fields button{
+    background-color: var(--input--);
+    border:1px solid #f39c12;
+    border-radius: 5px;
+    padding: 8px 20px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 2px;
+    color: #ffff;
+}
+.fields button:hover{
+    background-color: #f7a829;
+    transform: scale(1.04);
+}
+
+.social button{
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ffff;
+    border: none;
+}
+
+.social .gl{
+    background-color: tomato;
+}
+
+.social .fb{
+    background-color: #0d6efd;
+}
